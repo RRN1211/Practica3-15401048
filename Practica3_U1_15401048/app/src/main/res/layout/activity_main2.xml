@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f3df31"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/num5"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TIPS \n TO BUILD A \n LANGUAGE \n LEARNING \n HABIT"
+        android:textAlignment="center"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:textColor="#4d554f"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="+     Free\nnew   Habbit\nTracker!"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:gravity="center_vertical"
+            android:textColor="#555345"
+            android:layout_margin="15dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img8"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+</LinearLayout>
